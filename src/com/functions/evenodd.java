@@ -1,0 +1,12 @@
+package com.functions;
+import java.util.Scanner;
+
+public class evenodd {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int num1  = in.nextInt();
+
+        if ( num1 % 2 == 0 ) System.out.println("even");
+        else System.out.println("odd");
+    }
+}
